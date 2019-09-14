@@ -18,7 +18,10 @@ Feature selection is the process of selecting a subset of relevant features from
 If you wish to run the CCA using the human activity sample dataset which is already included in MATLAB datasets simply run the main.m file.
 If you wish to run the CCA using your own dataset, then follow the steps below.
 
-Steps:
-1. Open the preprocess_data.m file and prepre it for the dataset you wish to use
-2. Simply run the CCA.m file
+The steps for running the code are as follows:
+1. Open the preprocess_data.m file and prepre it for the dataset you wish to use.
+Note: the target values need to be in numerical format. 
+2. Run the main.m file. This is the entry point for the code.
+3. Please note the CCA uses the KNN classifier (defined in the knn.m script).  If you wish you can modify the classifier to any classifier of your choice. Simply change the classifier model in line 49.
 
+Please e-mail us if you find bugs. bunmi_toba@yahoo.com
