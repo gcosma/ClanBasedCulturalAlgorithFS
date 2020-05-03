@@ -30,7 +30,7 @@ end
  indv.nfeat = size(f1,2);
  X1 = X(:,(f1));
  [indv.accuracy,indv.AUCval,indv.mse, ...
-        indv.OPTROCPT,  indv.precision,indv.F1, indv.recall,indv.conf] = knn(X1, T );
+        indv.OPTROCPT,  indv.precision,indv.F1, indv.recall] = knn(X1, T );
 
 
 end
